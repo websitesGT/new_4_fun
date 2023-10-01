@@ -1,0 +1,40 @@
+body {
+    background-color: #F1F1F1;
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+  }
+  
+  main {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .article h3 {
+    color: #04AA6D;
+  }
+  
+  .article p {
+    color: #333;
+    font-size:large;
+  }
+  
+  .article:nth-child(even) {
+    background-color: #EEE;
+  }
+  
+  .article:nth-child(odd) {
+    background-color: #FFF;
+  }
+
+  sub {
+    font-size: 50%;
+  }
